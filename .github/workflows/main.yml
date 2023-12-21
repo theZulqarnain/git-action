@@ -9,4 +9,4 @@ jobs:
      - uses: actions/checkout@v3
 
      - name: Run a sample github action
-     - run: echo "this workflow works sucessfully"
+     run: echo "this workflow works sucessfully"
