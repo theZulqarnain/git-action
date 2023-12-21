@@ -3,7 +3,7 @@ on: push
 
 jobs:
   build:
-    run-ons: ubnuntu-latest
+    runs-on: ubnuntu-latest
 
     steps:
      - uses: actions/checkout@v3
